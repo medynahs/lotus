@@ -1,4 +1,5 @@
 import { GlobalStyles } from './styles/globalstyles'
+import Footer from './components/Footer';
 import NavBar from './components/NavBar'
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
      <GlobalStyles />
       <NavBar title='AGENDE AGORA'/>
+      <Footer title='LOTUS' />
     </>
   );
 }
