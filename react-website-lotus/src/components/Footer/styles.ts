@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
-import { FooterProps } from ".";
-
-export const FooterTitle = styled.h1<FooterProps>`
+export const FooterTitle = styled.h1`
     display: flex;
     justify-content: center;
     font-weight: bold;
@@ -13,7 +11,7 @@ export const FooterTitle = styled.h1<FooterProps>`
 `;
 
 
-export const Container = styled.div<FooterProps>`
+export const Container = styled.div`
   width: 100%;
   height: 90%;
   position: fixed;
@@ -22,7 +20,7 @@ export const Container = styled.div<FooterProps>`
   background: linear-gradient(white 5%, #8cd4c8);
 `;
 
-export const Container2 = styled.div<FooterProps>`
+export const Container2 = styled.div`
   color: blue;
   display: flex;
   flex-direction: row;
@@ -33,7 +31,7 @@ export const Container2 = styled.div<FooterProps>`
   padding: 20px;
 `;
 
-export const Ulist1 = styled.ul<FooterProps>`
+export const Ulist1 = styled.ul`
   position: absolute;
   display: flex;
   margin: 0;
@@ -41,7 +39,7 @@ export const Ulist1 = styled.ul<FooterProps>`
   margin-top: 450px ;
 `;
 
-export const List1 = styled.li<FooterProps>`
+export const List1 = styled.li`
   list-style: none;
   margin: 0 30px;
   color: red;
@@ -49,7 +47,7 @@ export const List1 = styled.li<FooterProps>`
   color: black;
 `;
 
-export const Ulist2 = styled.ul<FooterProps>`
+export const Ulist2 = styled.ul`
   position: absolute;
   display: flex;
   margin: 0;
@@ -57,7 +55,7 @@ export const Ulist2 = styled.ul<FooterProps>`
   margin-top: 550px ;
 `;
 
-export const List2 = styled.li<FooterProps>`
+export const List2 = styled.li`
   list-style: none;
   margin: 0 15px;
   color: red;
@@ -66,7 +64,7 @@ export const List2 = styled.li<FooterProps>`
   font-weight: lighter;
 `;
 
-export const SignUp = styled.text<FooterProps>`
+export const SignUp = styled.text`
   font-size: 60px;
   display: flex;
   text-align: center;
