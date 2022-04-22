@@ -13,6 +13,7 @@ import img3 from "../../images/img3.jpg";
 import { motion } from "framer-motion";
 
 function MenuItems() {
+
   return (
     <Container>
       <div>
@@ -46,51 +47,46 @@ function MenuItems() {
       <Container>
         <LinksContainer>
           <Circle>
-            <Link>
+            <Link href="/">
               <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 2 }}
-                whileHover={{ scale: 1.1 }}
                 transition={{ ease: "easeInOut", duration: 4 }}
               >
                 Home
               </motion.div>
             </Link>
-            <Link>
+            <Link href="/skincare">
               <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 2 }}
-                whileHover={{ scale: 1.1 }}
                 transition={{ ease: "easeInOut", duration: 4 }}
               >
                 Skincare
               </motion.div>
             </Link>
-            <Link>
+            <Link href="/corpo" >
               <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 2 }}
-                whileHover={{ scale: 1.1 }}
                 transition={{ ease: "easeInOut", duration: 4 }}
               >
                 Corpo
               </motion.div>
             </Link>
-            <Link>
+            <Link href="/makeup">
               <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 2 }}
-                whileHover={{ scale: 1.1 }}
                 transition={{ ease: "easeInOut", duration: 4 }}
               >
-                Maquiagem
+                Makeup
               </motion.div>
             </Link>
-            <Link>
+            <Link href="/sobre">
               <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 2 }}
-                whileHover={{ scale: 1.1 }}
                 transition={{ ease: "easeInOut", duration: 4 }}
               >
                 Sobre

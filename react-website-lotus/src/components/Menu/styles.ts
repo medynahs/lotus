@@ -1,9 +1,7 @@
 import styled from "styled-components";
 
 export const MenuContainer = styled.div`
-  width: 40px;
   height: 40px;
-  background-color: #fff;
 `;
 
 export const IconDiv = styled.div`

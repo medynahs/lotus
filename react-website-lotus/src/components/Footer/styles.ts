@@ -13,10 +13,6 @@ export const FooterTitle = styled.h1`
 
 export const Container = styled.div`
   width: 100%;
-  height: 90%;
-  position: fixed;
-  bottom: 0; 
-  left: 0;
   background: linear-gradient(white 5%, #8cd4c8);
 `;
 
