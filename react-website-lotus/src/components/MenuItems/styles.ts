@@ -14,6 +14,10 @@ export const Link = styled.a`
   position: relative;
   margin-top: 4%;
 
+  &:hover {
+    cursor: pointer;
+  }
+
   ::after {
     content: "";
     width: 100%;

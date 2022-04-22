@@ -1,15 +1,14 @@
 import styled from "styled-components";
-import { NavBarProps } from ".";
 
-export const Container = styled.div<NavBarProps>`
+export const Container = styled.div`
   height: 90px;
   width: 100%;
-  background-color: #ffffff;
   justify-content: space-between;
   display: flex;
+  padding-left: 2%;
 `;
 
-export const Title = styled.text<NavBarProps>`
+export const Title = styled.text`
   font-family: "Arial", serif;
   font-weight: bold;
   font-size: 22px;
@@ -21,24 +20,25 @@ export const Title = styled.text<NavBarProps>`
   }
 `;
 
-export const RightContainer = styled.div<NavBarProps>`
+export const RightContainer = styled.div`
   height: 90px;
-  width: 10%;
-  background-color: #ffffff;
+  width: 5%;
   display: flex;
   align-items: center;
+  justify-content: center;
 `;
 
-export const Logo = styled.text<NavBarProps>`
+export const Logo = styled.a`
+  color: black;
   font-size: 34px;
-  margin-left: 40px;
   align-self: center;
+  text-decoration: none;
   &:hover {
     cursor: pointer;
   }
 `;
 
-export const LogInText = styled.text<NavBarProps>`
+export const LogInText = styled.text`
   font-family: "Arial", serif;
   font-size: 18px;
   margin-left: 20px;
