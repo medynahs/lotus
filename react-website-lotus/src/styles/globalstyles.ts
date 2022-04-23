@@ -11,6 +11,7 @@ export const GlobalStyles = createGlobalStyle`
 body{
   font-family: 'Playfair Display', serif;
   -webkit-font-smoothing: antialiased;
+  font-size: 100%
  }
 
 `;
