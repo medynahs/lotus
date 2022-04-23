@@ -1,7 +1,12 @@
-import styled from "styled-components"
+import styled from "styled-components";
+
+export const TitleContainer = styled.div`
+  height: 100%;
+  width: 100%;
+  padding: 3% 0% 0% 5.9%;
+`;
 
 export const Container = styled.div`
   height: 100%;
   width: 100%;
-  padding: 55px 120px 0px 110px;
 `;

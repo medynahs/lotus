@@ -6,7 +6,7 @@ function Body() {
     <Screen
       data={bodyInfo}
       pageTitle="Corpo"
-      pageSubtitle="Procedimentos"
+      pageSubtitle="Tratamentos"
     />
   );
 }

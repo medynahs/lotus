@@ -1,51 +1,54 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  height: 90px;
+  height: 9.4vh;
   width: 100%;
   justify-content: space-between;
   display: flex;
   padding-left: 2%;
+  padding-right: 2%;
 `;
 
 export const Title = styled.text`
   font-family: "Arial", serif;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 1.3rem;
   align-self: center;
   transition: all 0.4s linear;
   &:hover {
     cursor: pointer;
     color: #6d6c6c;
+  }
+
+  @media (max-width: 1280px) {
+    font-size: 0%;
   }
 `;
 
 export const RightContainer = styled.div`
-  height: 90px;
+  height: 9.4vh;
   width: 5%;
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 540px) {
+    margin-right: 4%;
+  }
 `;
 
 export const Logo = styled.a`
   color: black;
-  font-size: 34px;
+  font-size: 2rem;
   align-self: center;
   text-decoration: none;
+  
   &:hover {
     cursor: pointer;
   }
-`;
 
-export const LogInText = styled.text`
-  font-family: "Arial", serif;
-  font-size: 18px;
-  margin-left: 20px;
-  margin-right: 20px;
-  transition: all 0.4s linear;
-  &:hover {
-    cursor: pointer;
-    color: #6d6c6c;
+  @media (max-width: 540px) {
+    font-size: 158%;
+    margin-left: 4%;
   }
 `;

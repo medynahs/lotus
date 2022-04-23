@@ -6,7 +6,7 @@ function Skincare() {
     <Screen
       data={skincareInfo}
       pageTitle="Skincare"
-      pageSubtitle="Procedimentos"
+      pageSubtitle="Tratamentos"
     />
   );
 }
