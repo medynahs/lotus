@@ -7,7 +7,26 @@ export const FooterTitle = styled.h1`
     font-size: 470px;
     color: #FFFFFF;
     letter-spacing: -22px;
-    margin-top: 200px
+    margin-top: 200px;
+
+
+    @media (max-width: 575.98px) {
+        font-size: 180px;
+        margin-top: 415px;
+      }
+
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      font-size: 200px;
+      margin-top: 415px;
+      }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      font-size: 300px;
+      margin-top: 300px;
+      }
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+      font-size: 400px;
+      margin-top: 415px;
+      }
 `;
 
 
