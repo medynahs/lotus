@@ -6,6 +6,7 @@ import Treatments from "../../components/Treatments";
 import Phrases from "../../components/Phrases";
 
 function Home() {
+
   return (
     <>
       <Container>

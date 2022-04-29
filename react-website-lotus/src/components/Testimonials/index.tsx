@@ -7,15 +7,37 @@ import {
   Paragraph,
   Author,
 } from "./styles";
-import { motion } from "framer-motion";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { useEffect } from "react";
 
 function Testimonials() {
+
+  const { ref, inView } = useInView({ threshold: 0.6 });
+  const animation = useAnimation();
+
+  
+  useEffect(() => {
+    if (inView) {
+      animation.start({
+        opacity: 1,
+        x: -35,
+        transition: {
+          ease: "easeInOut",
+          duration: 1.2
+        },
+      });
+    }
+
+    if (!inView) {
+      animation.start({ x: 0, opacity: 0});
+    }
+  }, [inView]);
+
   return (
-    <Container>
+    <Container ref={ref}>
       <motion.div
-        initial={{ x: 60, opacity: 0 }}
-        animate={{ x: -10, opacity: 2 }}
-        transition={{ ease: "easeInOut", duration: 1.4 }}
+        animate={animation}
       >
         <Title>Nós Te</Title>
         <Subtitle>Escutamos</Subtitle>

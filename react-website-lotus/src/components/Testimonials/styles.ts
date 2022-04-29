@@ -10,7 +10,7 @@ export const Container = styled.div`
 
 export const Title = styled.p`
   font-size: 7.88rem;
-  margin-left: 6%;
+  margin-left: 9%;
 
   @media (max-width: 300px) {
     font-size: 2rem;

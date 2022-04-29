@@ -3,11 +3,16 @@ import styled from "styled-components";
 export const Container = styled.div`
   height: 80vh;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 `;
 
 export const Title = styled.a`
   font-size: 7.88rem;
-  margin-left: 6%;
+  margin: -29% 0% 0% 6.4%;
+  display: flex;
+  justify-content: flex-start;
   text-decoration: none;
   color: black;
 

@@ -16,7 +16,7 @@ function InstaCard({ image }: InstaCardProps) {
         whileHover={{ x: 20 }}
         transition={{ duration: 0.3 }}
       >
-        <a href="instagram.com/flor.de.lotus.esteticaesaude/">
+        <a href="https://www.instagram.com/flor.de.lotus.esteticaesaude/">
           <ImageContainer>
             <img
               src={image}
