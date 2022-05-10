@@ -14,6 +14,12 @@ export const ImagesContainer = styled.div`
   justify-content: center;
 `;
 
+export const Card1Div = styled.div`
+  @media (max-width: 350px) {
+    height: 20rem;
+  }
+
+`;
 
 export const Card2Div = styled.div`
   @media (max-width: 785px) {

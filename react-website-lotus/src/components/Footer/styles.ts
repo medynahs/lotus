@@ -1,34 +1,56 @@
 import styled from "styled-components";
 
 export const FooterTitle = styled.h1`
-    display: flex;
-    justify-content: center;
-    font-weight: bold;
-    font-size: 470px;
-    color: #FFFFFF;
-    letter-spacing: -22px;
-    margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  font-size: 30rem;
+  color: #ffffff;
+  letter-spacing: -22px;
+  margin-top: 16rem;
+  margin-right: 1rem;
+
+  @media (max-width: 1430px) {
+    font-size: 28rem;
+  }
+
+  @media (max-width: 1360px) {
+    font-size: 26rem;
+  }
+  
+  @media (max-width: 1240px) {
+    font-size: 23rem;
+  }
+
+  @media (max-width: 1082px) {
+    font-size: 20rem;
+  }
+
+  @media (max-width: 932px) {
+    font-size: 18rem;
+  }
+
+  @media (max-width: 820px) {
+    font-size: 16rem;
+  }
+
+  @media (max-width: 722px) {
+    font-size: 14rem;
+  }
+
+  @media (max-width: 630px) {
+    font-size: 12rem;
+  }
+
+  @media (max-width: 576px) {
+    font-size: 9rem;
+  }
+
+  @media (max-width: 370px) {
+    font-size: 7.5rem;
+  }
 
 
-    @media (max-width: 575.98px) {
-        font-size: 180px;
-        margin-top: 415px;
-      }
-
-    @media (min-width: 576px) and (max-width: 767.98px) {
-      font-size: 200px;
-      margin-top: 415px;
-      }
-    @media (min-width: 768px) and (max-width: 991.98px) {
-      font-size: 300px;
-      margin-top: 300px;
-      }
-    @media (min-width: 992px) and (max-width: 1199.98px) {
-      font-size: 400px;
-      margin-top: 415px;
-      }
 `;
-
 
 export const Container = styled.div`
   width: 100%;
@@ -36,30 +58,42 @@ export const Container = styled.div`
 `;
 
 export const Container2 = styled.div`
-  color: blue;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
-  position: relative;
-  box-sizing: border-box;
-  padding: 20px;
+  padding: 2%;
 `;
 
-export const Ulist1 = styled.ul`
+export const Ulist1 = styled.div`
   position: absolute;
   display: flex;
-  margin: 0;
-  padding: 0;
-  margin-top: 450px ;
+  margin-top: 450px;
+  width: 100%;
+  justify-content: center;
 `;
 
-export const List1 = styled.li`
+export const List1 = styled.a`
   list-style: none;
   margin: 0 30px;
   color: red;
-  font-size: 25px;
+  font-size: 1.6rem;
   color: black;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  @media (max-width: 720px) {
+    font-size: 1.4rem;
+  }
+
+  @media (max-width: 650px) {
+    font-size: 1.3rem;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 0rem;
+  }
 `;
 
 export const Ulist2 = styled.ul`
@@ -67,14 +101,24 @@ export const Ulist2 = styled.ul`
   display: flex;
   margin: 0;
   padding: 0;
-  margin-top: 550px ;
+  margin-top: 550px;
 `;
 
 export const List2 = styled.li`
   list-style: none;
   margin: 0 15px;
   color: red;
-  font-size: 15px;
+  font-size: 0.9rem;
   color: black;
   font-weight: lighter;
+
+  @media (max-width: 720px) {
+    @media (max-width: 720px) {
+      font-size: 0.8rem;
+    }
+  }
+
+  @media (max-width: 600px) {
+    font-size: 0rem;
+  }
 `;
