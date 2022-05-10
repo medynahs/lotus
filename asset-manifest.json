@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.js": "/react-website-lotus/static/js/main.928bded8.js",
-    "static/media/body1.jpg": "/react-website-lotus/static/media/body1.d84137bcf967333912b5.jpg",
-    "static/media/spa.jpg": "/react-website-lotus/static/media/spa.e73a0bc2a3ca70dd93d6.jpg",
-    "static/media/menuImage2.jpg": "/react-website-lotus/static/media/menuImage2.7b24a0a9c2e9dce6fd61.jpg",
-    "static/media/img3.jpg": "/react-website-lotus/static/media/img3.11748a9826f98c798d67.jpg",
-    "static/media/bride.jpg": "/react-website-lotus/static/media/bride.82c4e9600f86bcbd3e7a.jpg",
-    "static/media/menuImg1.jpg": "/react-website-lotus/static/media/menuImg1.53f230cfef9c785920f3.jpg",
-    "static/media/drenagem.png": "/react-website-lotus/static/media/drenagem.025998a32388d43f0eda.png",
-    "static/media/cryo.jpg": "/react-website-lotus/static/media/cryo.fd1017d70890281bdc4c.jpg",
-    "static/media/pump.jpg": "/react-website-lotus/static/media/pump.4144d9deae0543537d96.jpg",
-    "static/media/make.jpg": "/react-website-lotus/static/media/make.472529ee22269c502b70.jpg",
-    "static/media/massageinsta.jpg": "/react-website-lotus/static/media/massageinsta.aada2393682682c21e96.jpg",
-    "static/media/instapic4.jpg": "/react-website-lotus/static/media/instapic4.abb7dc0ec63d884cd07d.jpg",
-    "static/media/insta.jpg": "/react-website-lotus/static/media/insta.e334e242dd7f621549bb.jpg",
-    "index.html": "/react-website-lotus/index.html",
-    "main.928bded8.js.map": "/react-website-lotus/static/js/main.928bded8.js.map"
+    "main.js": "/lotus/static/js/main.0b0dc9ff.js",
+    "static/media/body1.jpg": "/lotus/static/media/body1.d84137bcf967333912b5.jpg",
+    "static/media/spa.jpg": "/lotus/static/media/spa.e73a0bc2a3ca70dd93d6.jpg",
+    "static/media/menuImage2.jpg": "/lotus/static/media/menuImage2.7b24a0a9c2e9dce6fd61.jpg",
+    "static/media/img3.jpg": "/lotus/static/media/img3.11748a9826f98c798d67.jpg",
+    "static/media/bride.jpg": "/lotus/static/media/bride.82c4e9600f86bcbd3e7a.jpg",
+    "static/media/menuImg1.jpg": "/lotus/static/media/menuImg1.53f230cfef9c785920f3.jpg",
+    "static/media/drenagem.png": "/lotus/static/media/drenagem.025998a32388d43f0eda.png",
+    "static/media/cryo.jpg": "/lotus/static/media/cryo.fd1017d70890281bdc4c.jpg",
+    "static/media/pump.jpg": "/lotus/static/media/pump.4144d9deae0543537d96.jpg",
+    "static/media/make.jpg": "/lotus/static/media/make.472529ee22269c502b70.jpg",
+    "static/media/massageinsta.jpg": "/lotus/static/media/massageinsta.aada2393682682c21e96.jpg",
+    "static/media/instapic4.jpg": "/lotus/static/media/instapic4.abb7dc0ec63d884cd07d.jpg",
+    "static/media/insta.jpg": "/lotus/static/media/insta.e334e242dd7f621549bb.jpg",
+    "index.html": "/lotus/index.html",
+    "main.0b0dc9ff.js.map": "/lotus/static/js/main.0b0dc9ff.js.map"
   },
   "entrypoints": [
-    "static/js/main.928bded8.js"
+    "static/js/main.0b0dc9ff.js"
   ]
 }
