@@ -31,7 +31,7 @@ function Card({ title, price, image }: CardProps) {
         </ImageContainer>
       </motion.div>
       <Title>{title}</Title>
-      <Subtitle>$ {price}</Subtitle>
+      <Subtitle>{price}</Subtitle>
       <MoreInfoText>SAIBA MAIS</MoreInfoText>
     </Container>
   );

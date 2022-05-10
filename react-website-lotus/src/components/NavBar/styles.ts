@@ -14,11 +14,11 @@ export const Title = styled.text`
   font-weight: bold;
   font-size: 1.3rem;
   align-self: center;
+
+  margin-right: 3%;
+  
+  text-align: center;
   transition: all 0.4s linear;
-  &:hover {
-    cursor: pointer;
-    color: #6d6c6c;
-  }
 
   @media (max-width: 1280px) {
     font-size: 0%;

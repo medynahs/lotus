@@ -8,7 +8,6 @@ export const Container = styled.div`
     width: 21rem;
   }
 
-  
   @media (max-width: 1100px) {
     width: 60rem;
   }
@@ -48,7 +47,6 @@ export const ImageContainer = styled.div`
   @media (min-width: 1400px) {
     height: 33rem
   }
-
 
   @media (min-width: 2000px) {
     height: 46rem
