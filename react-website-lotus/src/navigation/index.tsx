@@ -7,7 +7,7 @@ import Home from "../pages/Home";
 
 export default function Navigation() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/skincare" element={<Skincare />} />
         <Route path="/corpo" element={<Body />} />
