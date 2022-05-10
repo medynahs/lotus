@@ -1,4 +1,10 @@
-import { Container, Title, InstaName } from "./styles";
+import {
+  Container,
+  Title,
+  InstaName,
+  ImagesContainer,
+  CardDiv,
+} from "./styles";
 import { motion, useAnimation } from "framer-motion";
 import InstaCard from "./InstaCard";
 import Grid from "@mui/material/Grid";
@@ -32,7 +38,6 @@ function Instagram() {
 
   const { ref, inView } = useInView({ threshold: 0.6 });
   const animation = useAnimation();
-
   const secondAnimation = useAnimation();
 
   useEffect(() => {
@@ -67,6 +72,25 @@ function Instagram() {
   return (
     <Container ref={ref}>
 
+      <ImagesContainer>
+
+        <InstaCard image={img1} />
+
+        <CardDiv>
+          <InstaCard image={img2} />
+        </CardDiv>
+
+        <CardDiv>
+          <InstaCard image={img3} />
+        </CardDiv>
+
+        <CardDiv>
+          <InstaCard image={img4} />
+        </CardDiv>
+        
+      </ImagesContainer>
+
+      {/* 
       <Grid
         container
         spacing={8}
@@ -93,14 +117,13 @@ function Instagram() {
             <InstaCard image={item.img} key={item.id} />
           </Grid>
         ))}
-      </Grid>
+      </Grid> */}
 
       <motion.div animate={animation}>
         <Title href="https://www.instagram.com/flor.de.lotus.esteticaesaude/">
           Siga-nos
         </Title>
       </motion.div>
-
 
       <motion.div animate={secondAnimation}>
         <InstaName href="https://www.instagram.com/flor.de.lotus.esteticaesaude/">

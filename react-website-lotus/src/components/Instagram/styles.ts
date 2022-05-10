@@ -1,16 +1,28 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  height: 80vh;
+  height: 78vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 `;
 
+export const ImagesContainer = styled.div`
+  display: flex;
+  justify-content: center;
+`;
+
+export const CardDiv = styled.div`
+  @media (max-width: 1380px) {
+    width: 0%;
+    height: 0%;
+  }
+`;
+
 export const Title = styled.a`
   font-size: 7.88rem;
-  margin: -29% 0% 0% 6.4%;
+  margin: -32% 0% 0% 6.4%;
   display: flex;
   justify-content: flex-start;
   text-decoration: none;
@@ -20,16 +32,16 @@ export const Title = styled.a`
     cursor: pointer;
   }
 
-  @media (max-width: 300px) {
-    font-size: 2rem;
-  }
-
   @media (max-width: 1280px) {
     font-size: 500%;
   }
 
   @media (max-width: 630px) {
     font-size: 240%;
+  }
+
+  @media (max-width: 300px) {
+    font-size: 2rem;
   }
 `;
 
@@ -45,15 +57,15 @@ export const InstaName = styled.a`
     cursor: pointer;
   }
 
-  @media (max-width: 300px) {
-    font-size: 2rem;
-  }
-
   @media (max-width: 1280px) {
     font-size: 500%;
   }
 
   @media (max-width: 630px) {
     font-size: 240%;
+  }
+
+  @media (max-width: 300px) {
+    font-size: 2rem;
   }
 `;

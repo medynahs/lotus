@@ -11,12 +11,12 @@ export const Container = styled.div`
 
 export const Title = styled.text`
   font-size: 2.8rem;
-  align-self: center;
   color: white;
+  text-align: center;
 `;
 
 export const Subtitle = styled.text`
   font-size: 1.2rem;
-  align-self: center;
   color: white;
+  text-align: center;
 `;

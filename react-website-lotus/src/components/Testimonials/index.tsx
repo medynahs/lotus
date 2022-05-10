@@ -13,7 +13,7 @@ import { useEffect } from "react";
 
 function Testimonials() {
 
-  const { ref, inView } = useInView({ threshold: 0.6 });
+  const { ref, inView } = useInView({ threshold: 0.3 });
   const animation = useAnimation();
 
   

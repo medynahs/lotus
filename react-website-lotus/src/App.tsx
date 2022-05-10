@@ -1,5 +1,5 @@
 import { GlobalStyles } from "./styles/globalstyles";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import Navigation from "./navigation";
 import Footer from "./components/Footer";
@@ -10,7 +10,7 @@ function App() {
      <GlobalStyles />
       <NavBar title='AGENDE AGORA'/>
       <Navigation />
-      {/* <Footer title='LOTUS' /> */}
+      <Footer title="LOTUS" />
     </>
   );
 }
