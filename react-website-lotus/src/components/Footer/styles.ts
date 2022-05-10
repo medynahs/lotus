@@ -78,11 +78,3 @@ export const List2 = styled.li`
   color: black;
   font-weight: lighter;
 `;
-
-export const SignUp = styled.text`
-  font-size: 60px;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  margin-top: 50px;
-`;

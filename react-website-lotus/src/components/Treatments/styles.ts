@@ -9,7 +9,7 @@ export const Container = styled.div`
 `;
 
 export const Paragraph = styled.text`
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   display: flex;
   justify-content: center;
   margin-bottom: 4%;
@@ -33,7 +33,7 @@ export const LinkDiv = styled.div`
 `;
 
 export const Link = styled.a`
-  font-size: 7.2rem;
+  font-size: 6.8rem;
   text-decoration: none;
   position: relative;
   color: black;

@@ -4,7 +4,6 @@ import {
     FooterTitle,
     List1,
     List2,
-    SignUp,
     Ulist1,
     Ulist2
   } from './styles';
@@ -17,7 +16,6 @@ function Footer({ title}: FooterProps) {
   return (
     <>
       <Container>
-      <SignUp>Inscreva-se para ofertas especiais</SignUp>
       <Container2>
         <Ulist1>
           <List1>Home</List1>

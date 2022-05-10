@@ -4,16 +4,15 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 94vh;
+  height: 95vh;
   flex-direction: column;
   padding: 0% 3% 0% 3%;
 
   background: linear-gradient(
     180deg,
-    white 10%,
-    rgba(174, 217, 210, 1) 50%,
-    rgba(201, 237, 230, 1) 65%,
-    white
+    white 20%,
+    rgba(174, 217, 210, 1) 52%,
+    white 
   );
 
   @media (max-width: 550px) {

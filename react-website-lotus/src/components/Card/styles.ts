@@ -48,7 +48,6 @@ export const ImageContainer = styled.div`
     height: 33rem
   }
 
-
   @media (min-width: 2000px) {
     height: 46rem
   }

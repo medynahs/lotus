@@ -2,13 +2,12 @@ import { GlobalStyles } from "./styles/globalstyles";
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import Navigation from "./navigation";
-import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
-     <GlobalStyles />
-      <NavBar title='AGENDE AGORA'/>
+      <GlobalStyles />
+      <NavBar title="AGENDE AGORA" />
       <Navigation />
       <Footer title="LOTUS" />
     </>

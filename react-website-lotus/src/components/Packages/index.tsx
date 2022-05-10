@@ -3,6 +3,7 @@ import Card from "../Card";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
+import Package from './Package';
 
 import bride from "../../images/bride.jpg";
 import spa from "../../images/spa.jpg";
@@ -23,7 +24,7 @@ function Packages() {
     }
 
     if (!inView) {
-      animation.start({ opacity: 0});
+      animation.start({ opacity: 0 });
     }
   }, [inView]);
 
@@ -31,7 +32,7 @@ function Packages() {
     <Container ref={ref}>
       <Card1Div>
         <motion.div animate={animation}>
-          <Card
+          <Package
             title="Pacote Renovação"
             image={spa}
             price="R$ 500,00 (Até 6x sem juros, clique para ver detalhes) "
@@ -40,7 +41,7 @@ function Packages() {
       </Card1Div>
       <Card2Div>
         <motion.div animate={animation}>
-          <Card
+          <Package
             title="Pacote Noiva"
             image={bride}
             price="R$ 500,00 (Até 6x sem juros, clique para ver detalhes) "

@@ -13,10 +13,26 @@ export const Title = styled.text`
   font-size: 2.8rem;
   color: white;
   text-align: center;
+
+  @media (max-width: 720px) {
+    font-size: 2.1rem;
+  }
+
+  @media (max-width: 550px) {
+    font-size: 1.8rem;
+  }
 `;
 
 export const Subtitle = styled.text`
   font-size: 1.2rem;
   color: white;
   text-align: center;
+
+  @media (max-width: 720px) {
+    font-size: 1rem;
+  }
+
+  @media (max-width: 550px) {
+    font-size: 0.8rem;
+  }
 `;

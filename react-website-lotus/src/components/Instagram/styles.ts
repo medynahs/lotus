@@ -1,11 +1,12 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  height: 78vh;
+  height: 60vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 10% 0% 10% 0%;
 `;
 
 export const ImagesContainer = styled.div`
@@ -13,7 +14,22 @@ export const ImagesContainer = styled.div`
   justify-content: center;
 `;
 
-export const CardDiv = styled.div`
+
+export const Card2Div = styled.div`
+  @media (max-width: 785px) {
+    width: 0%;
+    height: 0%;
+  }
+`;
+
+export const Card3Div = styled.div`
+  @media (max-width: 1060px) {
+    width: 0%;
+    height: 0%;
+  }
+`;
+
+export const Card4Div = styled.div`
   @media (max-width: 1380px) {
     width: 0%;
     height: 0%;
@@ -22,7 +38,7 @@ export const CardDiv = styled.div`
 
 export const Title = styled.a`
   font-size: 7.88rem;
-  margin: -32% 0% 0% 6.4%;
+  margin: 0% 0% 2% 8%;
   display: flex;
   justify-content: flex-start;
   text-decoration: none;
@@ -33,11 +49,15 @@ export const Title = styled.a`
   }
 
   @media (max-width: 1280px) {
-    font-size: 500%;
+    font-size: 5.8rem;
   }
 
-  @media (max-width: 630px) {
-    font-size: 240%;
+  @media (max-width: 660px) {
+    font-size: 4rem;
+  }
+
+  @media (max-width: 420px) {
+    font-size: 3rem;
   }
 
   @media (max-width: 300px) {
@@ -47,7 +67,7 @@ export const Title = styled.a`
 
 export const InstaName = styled.a`
   font-size: 7rem;
-  margin: -5.5% 4.9% 0% 0%;
+  margin: 1% 4.9% 0% 0%;
   display: flex;
   justify-content: flex-end;
   text-decoration: none;
@@ -58,11 +78,15 @@ export const InstaName = styled.a`
   }
 
   @media (max-width: 1280px) {
-    font-size: 500%;
+    font-size: 5.6rem;
   }
 
-  @media (max-width: 630px) {
-    font-size: 240%;
+  @media (max-width: 660px) {
+    font-size: 4rem;
+  }
+
+  @media (max-width: 420px) {
+    font-size: 2.8rem;
   }
 
   @media (max-width: 300px) {

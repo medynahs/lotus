@@ -3,15 +3,16 @@ import {
   Title,
   InstaName,
   ImagesContainer,
-  CardDiv,
+  Card2Div,
+  Card3Div,
+  Card4Div
 } from "./styles";
 import { motion, useAnimation } from "framer-motion";
 import InstaCard from "./InstaCard";
-import Grid from "@mui/material/Grid";
 import img2 from "../../images/make.jpg";
 import img3 from "../../images/massageinsta.jpg";
 import img4 from "../../images/instapic4.jpg";
-import img1 from "../../images/nails1.jpg";
+import img1 from "../../images/insta.jpg";
 
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
@@ -71,59 +72,29 @@ function Instagram() {
 
   return (
     <Container ref={ref}>
-
-      <ImagesContainer>
-
-        <InstaCard image={img1} />
-
-        <CardDiv>
-          <InstaCard image={img2} />
-        </CardDiv>
-
-        <CardDiv>
-          <InstaCard image={img3} />
-        </CardDiv>
-
-        <CardDiv>
-          <InstaCard image={img4} />
-        </CardDiv>
-        
-      </ImagesContainer>
-
-      {/* 
-      <Grid
-        container
-        spacing={8}
-        style={{
-          marginBottom: "2%",
-          marginLeft: "4px",
-          width: "95%",
-          paddingLeft: "2.85%",
-        }}
-      >
-        {data.map((item) => (
-          <Grid
-            item
-            xs={12}
-            sm={12}
-            md={12}
-            lg={3}
-            key={item.id}
-            sx={{
-              display: "flex",
-              justifyContent: "center",
-            }}
-          >
-            <InstaCard image={item.img} key={item.id} />
-          </Grid>
-        ))}
-      </Grid> */}
-
       <motion.div animate={animation}>
         <Title href="https://www.instagram.com/flor.de.lotus.esteticaesaude/">
           Siga-nos
         </Title>
       </motion.div>
+
+      <ImagesContainer>
+        <div>
+          <InstaCard image={img1} />
+        </div>
+
+        <Card2Div>
+          <InstaCard image={img2} />
+        </Card2Div>
+
+        <Card3Div>
+          <InstaCard image={img3} />
+        </Card3Div>
+
+        <Card4Div>
+          <InstaCard image={img4} />
+        </Card4Div>
+      </ImagesContainer>
 
       <motion.div animate={secondAnimation}>
         <InstaName href="https://www.instagram.com/flor.de.lotus.esteticaesaude/">
