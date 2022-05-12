@@ -3,6 +3,7 @@ import {
   Title,
   InstaName,
   ImagesContainer,
+  Card1Div,
   Card2Div,
   Card3Div,
   Card4Div
@@ -79,9 +80,9 @@ function Instagram() {
       </motion.div>
 
       <ImagesContainer>
-        <div>
+        <Card1Div>
           <InstaCard image={img1} />
-        </div>
+        </Card1Div>
 
         <Card2Div>
           <InstaCard image={img2} />
