@@ -30,7 +30,7 @@ function Screen({ data, pageTitle, pageSubtitle }: ScreenProps) {
         spacing={8}
         style={{
           padding: "5%",
-          marginBottom: '20%',
+          marginBottom: "20%",
         }}
       >
         {data.map((item) => (
@@ -51,6 +51,7 @@ function Screen({ data, pageTitle, pageSubtitle }: ScreenProps) {
               title={item.title}
               image={item.img}
               price={item.price}
+              id={item.id}
             />
           </Grid>
         ))}

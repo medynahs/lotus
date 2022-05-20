@@ -4,11 +4,13 @@ import Body from "../pages/Body";
 import Makeup from "../pages/Makeup";
 import About from "../pages/About";
 import Home from "../pages/Home";
+import Details from "../pages/Details";
 
 export default function Navigation() {
   return (
     <Router>
       <Routes>
+        <Route path="/detalhes/:productId" element={<Details />} />
         <Route path="/skincare" element={<Skincare />} />
         <Route path="/corpo" element={<Body />} />
         <Route path="/makeup" element={<Makeup />} />

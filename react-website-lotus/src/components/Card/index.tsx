@@ -6,14 +6,16 @@ import {
   MoreInfoText,
 } from "./styles";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 export interface CardProps {
   image?: string;
   title?: string;
   price?: string;
+  id?: number;
 }
 
-function Card({ title, price, image }: CardProps) {
+function Card({ title, price, image, id }: CardProps) {
   return (
     <Container>
       <motion.div
@@ -23,11 +25,13 @@ function Card({ title, price, image }: CardProps) {
         transition={{ duration: 0.3 }}
       >
         <ImageContainer>
-          <img
-            src={image}
-            alt="One "
-            style={{ width: "100%", height: "100%" }}
-          />
+          <Link to={`/detalhes/${id}`}>
+            <img
+              src={image}
+              alt="One "
+              style={{ width: "100%", height: "100%" }}
+            />
+          </Link>
         </ImageContainer>
       </motion.div>
       <Title>{title}</Title>
