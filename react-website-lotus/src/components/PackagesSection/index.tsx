@@ -7,7 +7,7 @@ import img2 from "../../images/pack2.jpg";
 import img3 from "../../images/skin1.jpg";
 import img4 from "../../images/smile.jpg";
 
-function Phrases() {
+function PackagesSection() {
   const { ref, inView } = useInView({ threshold: 0.6 });
   const animation = useAnimation();
 
@@ -25,6 +25,7 @@ function Phrases() {
     if (!inView) {
       animation.start({ opacity: 0 });
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [inView]);
 
   return (
@@ -54,7 +55,7 @@ function Phrases() {
           }}
         />
       </div>
-      <div style={{ marginTop: "-4%", marginRight: '4%' }}>
+      <div style={{ marginTop: "-4%", marginRight: "4%" }}>
         <motion.div animate={animation}>
           <TextDiv>
             <Text>Nossos</Text>
@@ -65,9 +66,6 @@ function Phrases() {
           <TextDiv>
             <p>SAIBA MAIS</p>
           </TextDiv>
-          {/* <TextDiv>
-            <p>entrando em contato conosco</p>
-          </TextDiv> */}
         </motion.div>
       </div>
 
@@ -100,4 +98,4 @@ function Phrases() {
   );
 }
 
-export default Phrases;
+export default PackagesSection;

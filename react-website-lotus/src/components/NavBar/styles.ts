@@ -57,7 +57,7 @@ export const Container = styled.section<NavProps>`
 
 export const Link = styled.a`
   color: black;
-  font-size: 2.7rem;
+  font-size: 2.4rem;
   text-decoration: none;
   position: relative;
   margin-top: 4%;
@@ -134,8 +134,8 @@ export const Circle = styled.div`
   border-radius: 50%;
   background: radial-gradient(
     circle,
-    rgba(174, 217, 210, 1) 20%,
-    rgba(201, 237, 230, 1) 40%,
+    #efdcdb 20%,
+    #efdcdb 40%,
     rgba(255, 255, 255, 1) 70%
   );
 

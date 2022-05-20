@@ -5,13 +5,13 @@ function Treatments() {
     <Container>
       <Paragraph>CONHEÇA NOSSOS SERVIÇOS</Paragraph>
       <LinkDiv>
-        <Link href="/skincare">Rosto</Link>
+        <Link href="/rosto">Rosto</Link>
       </LinkDiv>
       <LinkDiv>
         <Link href="/corpo">Corpo</Link>
       </LinkDiv>
       <LinkDiv>
-        <Link href="/depilacao">Mãos e Pés</Link>
+        <Link href="/maosepes">Mãos e Pés</Link>
       </LinkDiv>
       <LinkDiv>
         <Link href="/cabelo">Cabelo</Link>

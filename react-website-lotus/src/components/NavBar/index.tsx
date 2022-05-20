@@ -44,9 +44,12 @@ function NavBar({ title }: NavBarProps) {
           <Circle>
             <nav>
               <Link href="/">Home</Link>
-              <Link href="/skincare">Skincare</Link>
+              <Link href="/rosto">Skincare</Link>
               <Link href="/corpo">Corpo</Link>
-              <Link href="/makeup">Maquiagem</Link>
+              <Link href="/maosepes">Mãos e Pés</Link>
+              <Link href="/cabelo">Cabelo</Link>
+              <Link href="/depilacao">Depilação</Link>
+              <Link href="/makeup">Sobre</Link>
             </nav>
           </Circle>
         </Container>
