@@ -51,7 +51,7 @@ function Screen({ data, pageTitle, pageSubtitle }: ScreenProps) {
               title={item.title}
               image={item.img}
               price={item.price}
-              id={item.id}
+              id={item.title}
             />
           </Grid>
         ))}

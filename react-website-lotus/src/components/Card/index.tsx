@@ -12,7 +12,7 @@ export interface CardProps {
   image?: string;
   title?: string;
   price?: string;
-  id?: number;
+  id?: string;
 }
 
 function Card({ title, price, image, id }: CardProps) {

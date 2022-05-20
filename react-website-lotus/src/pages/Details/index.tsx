@@ -13,17 +13,23 @@ import {
 } from "./styles";
 import { useParams } from "react-router-dom";
 import { bodyInfo } from "../../data/BodyData";
+import { skincareInfo } from "../../data/SkincareData";
+import { makeupInfo } from "../../data/MakeupData";
 import { useState } from "react";
 import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 import { motion } from "framer-motion";
 
 function Details() {
   const { productId } = useParams();
-  const thisProduct = bodyInfo.find((prod) => prod.id.toString() === productId);
+
+  const data = bodyInfo.concat(skincareInfo).concat(makeupInfo);
+
+  const thisProduct = data.find((prod) => prod.title === productId);
 
   const [isOpen, setIsOpen] = useState(false);
   const [isSecondOpen, setIsSecondOpen] = useState(false);
   const [isThirdOpen, setIsThirdOpen] = useState(false);
+
 
   return (
     <Container>
