@@ -5,13 +5,28 @@ export const Container = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
+  padding-right: 5%;
+`;
+
+export const Circle = styled.div`
+  height: 3rem;
+  width: 3rem;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-top: 7%;
+
+  &:hover {
+    cursor: pointer;
+  }
 `;
 
 export const ImageContainer = styled.div`
   height: 55%;
   width: 38%;
-  align-self: center;
-  margin-right: 2%;
+  margin: 6.9% 2% 0% 2%;
 `;
 
 export const InfoContainer = styled.div`
@@ -20,13 +35,6 @@ export const InfoContainer = styled.div`
   margin-top: 6.9%;
   display: flex;
   flex-direction: column;
-`;
-
-export const Id = styled.text`
-  color: black;
-  font-size: 0.9rem;
-  margin-bottom: 2.5%;
-  font-family: "Nunito Sans", sans-serif;
 `;
 
 export const Title = styled.text`
