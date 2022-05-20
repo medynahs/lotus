@@ -6,6 +6,12 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   padding-right: 5%;
+
+  @media (max-width: 990px) {
+    flex-direction: column;
+    align-items: center;
+    padding-right: 0%;
+  }
 `;
 
 export const Circle = styled.div`
@@ -21,12 +27,22 @@ export const Circle = styled.div`
   &:hover {
     cursor: pointer;
   }
+
+  @media (max-width: 990px) {
+    display: flex;
+    align-self: start;
+    margin-left: 4%;
+  }
 `;
 
 export const ImageContainer = styled.div`
   height: 55%;
   width: 38%;
   margin: 6.9% 2% 0% 2%;
+
+  @media (max-width: 990px) {
+    width: 80%;
+  }
 `;
 
 export const InfoContainer = styled.div`
@@ -35,6 +51,10 @@ export const InfoContainer = styled.div`
   margin-top: 6.9%;
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 990px) {
+    width: 80%;
+  }
 `;
 
 export const Title = styled.text`
