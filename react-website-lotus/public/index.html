@@ -25,7 +25,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap"
       rel="stylesheet"
     />
     <!--
@@ -53,40 +53,41 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     <script>
-      var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?75159';
-      var s = document.createElement('script');
-      s.type = 'text/javascript';
+      var url =
+        "https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?75159";
+      var s = document.createElement("script");
+      s.type = "text/javascript";
       s.async = true;
       s.src = url;
       var options = {
-    "enabled":true,
-    "chatButtonSetting":{
-        "backgroundColor":"#4dc247",
-        "ctaText":"",
-        "borderRadius":"25",
-        "marginLeft":"0",
-        "marginBottom":"40",
-        "marginRight":"30",
-        "position":"right"
-    },
-    "brandSetting":{
-        "brandName":"Lótus",
-        "brandSubTitle":"Seja sua melhor versão 🌼",
-        "brandImg":"https://www.significados.com.br/foto/flor-de-lotus_dt.jpg",
-        "welcomeText":"Olá!\nComo posso ajudar?",
-        "messageText":"",
-        "backgroundColor":"#0a5f54",
-        "ctaText":"Enviar Mensagem",
-        "borderRadius":"25",
-        "autoShow":false,
-        "phoneNumber":"5592984427308"
-    }
-  };
-      s.onload = function() {
-          CreateWhatsappChatWidget(options);
+        enabled: true,
+        chatButtonSetting: {
+          backgroundColor: "#4dc247",
+          ctaText: "",
+          borderRadius: "25",
+          marginLeft: "0",
+          marginBottom: "40",
+          marginRight: "30",
+          position: "right",
+        },
+        brandSetting: {
+          brandName: "Lótus",
+          brandSubTitle: "Seja sua melhor versão 🌼",
+          brandImg: "https://www.significados.com.br/foto/flor-de-lotus_dt.jpg",
+          welcomeText: "Olá!\nComo posso ajudar?",
+          messageText: "",
+          backgroundColor: "#0a5f54",
+          ctaText: "Enviar Mensagem",
+          borderRadius: "25",
+          autoShow: false,
+          phoneNumber: "5592984427308",
+        },
       };
-      var x = document.getElementsByTagName('script')[0];
+      s.onload = function () {
+        CreateWhatsappChatWidget(options);
+      };
+      var x = document.getElementsByTagName("script")[0];
       x.parentNode.insertBefore(s, x);
-  </script>
+    </script>
   </body>
 </html>
