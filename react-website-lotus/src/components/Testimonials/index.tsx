@@ -39,8 +39,8 @@ function Testimonials() {
       <motion.div
         animate={animation}
       >
-        <Title>Nós Te</Title>
-        <Subtitle>Escutamos</Subtitle>
+        <Title>O Que Nossos</Title>
+        <Subtitle>Clientes Acharam</Subtitle>
       </motion.div>
 
       <TestimonialsDiv>

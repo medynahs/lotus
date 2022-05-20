@@ -16,7 +16,7 @@ export const FooterTitle = styled.h1`
   @media (max-width: 1360px) {
     font-size: 26rem;
   }
-  
+
   @media (max-width: 1240px) {
     font-size: 23rem;
   }
@@ -48,13 +48,11 @@ export const FooterTitle = styled.h1`
   @media (max-width: 370px) {
     font-size: 7.5rem;
   }
-
-
 `;
 
 export const Container = styled.div`
   width: 100%;
-  background: linear-gradient(white 5%, #8cd4c8);
+  background: linear-gradient(white 5%, #efdcdb);
 `;
 
 export const Container2 = styled.div`
@@ -108,7 +106,7 @@ export const List2 = styled.li`
   list-style: none;
   margin: 0 15px;
   color: red;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   color: black;
   font-weight: lighter;
 

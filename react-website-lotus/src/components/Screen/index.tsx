@@ -9,7 +9,9 @@ export interface Item {
   title: string;
   price: string;
   subtitle: string;
-  duration: string;
+  duration?: string;
+  ind?: string;
+  ben?: string;
 }
 
 export interface ScreenProps {

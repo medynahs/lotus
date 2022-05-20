@@ -1,10 +1,7 @@
 import { Container, Title, Subtitle } from "./styles";
-import Testimonials from "../../components/Testimonials";
-import Instagram from "../../components/Instagram";
-import Packages from "../../components/Packages";
 import Treatments from "../../components/Treatments";
 import Phrases from "../../components/Phrases";
-import picture from "../../images/picture.jpg";
+import img from "../../images/menuImage2.jpg";
 
 function Home() {
   return (
@@ -12,12 +9,10 @@ function Home() {
       <Container>
         <Title>SEJA SUA MELHOR VERSÃO</Title>
         <Subtitle>Ajudamos você a florescer</Subtitle>
+        <img src={img} alt="One " style={{ width: "100%", height: "100%" }} />
       </Container>
       <Treatments />
-      <Packages />
       <Phrases />
-      <Testimonials />
-      <Instagram />
     </>
   );
 }

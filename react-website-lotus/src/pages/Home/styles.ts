@@ -13,6 +13,9 @@ export const Title = styled.text`
   font-size: 2.8rem;
   color: white;
   text-align: center;
+  position: absolute;
+  left: 35%;
+  top: 50%;
 
   @media (max-width: 720px) {
     font-size: 2.1rem;
@@ -27,6 +30,9 @@ export const Subtitle = styled.text`
   font-size: 1.2rem;
   color: white;
   text-align: center;
+  position: absolute;
+  left: 45%;
+  top: 56%;
 
   @media (max-width: 720px) {
     font-size: 1rem;

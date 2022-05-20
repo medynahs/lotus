@@ -1,10 +1,10 @@
 import Screen from "../../components/Screen";
-import { makeupInfo } from "../../data/MakeupData";
+import { hairInfo } from "../../data/hairData";
 
 function Makeup() {
   return (
     <Screen
-      data={makeupInfo}
+      data={hairInfo}
       pageTitle="Make"
       pageSubtitle="up"
     />

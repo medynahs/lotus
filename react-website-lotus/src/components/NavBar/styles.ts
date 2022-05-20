@@ -96,22 +96,6 @@ export const OpenContainer = styled.nav`
   padding-right: 2%;
 `;
 
-export const Title = styled.text`
-  font-family: "Arial", serif;
-  font-weight: bold;
-  font-size: 1.3rem;
-  align-self: center;
-
-  margin-right: 3%;
-
-  text-align: center;
-  transition: all 0.4s linear;
-
-  @media (max-width: 1280px) {
-    font-size: 0%;
-  }
-`;
-
 export const RightContainer = styled.div`
   height: 9.4vh;
   width: 5%;

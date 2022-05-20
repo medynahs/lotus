@@ -19,13 +19,15 @@ function Footer({ title }: FooterProps) {
         <Container2>
           <Ulist1>
             <List1>Home</List1>
-            <List1>Skincare</List1>
+            <List1>Rosto</List1>
             <List1>Corpo</List1>
-            <List1>Makeup</List1>
+            <List1>Mãos e Pés</List1>
+            <List1>Cabelo</List1>
+            <List1>Depilação</List1>
             <List1>Sobre</List1>
           </Ulist1>
           <Ulist2>
-            <List2>CONTATO</List2>
+            <List2>FEEDBACKS</List2>
             <List2>FAQ</List2>
             <List2>NOSSA POLÍTICA</List2>
           </Ulist2>

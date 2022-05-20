@@ -1,6 +1,5 @@
 import {
   OpenContainer,
-  Title,
   RightContainer,
   Logo,
   Container,
@@ -25,7 +24,6 @@ function NavBar({ title }: NavBarProps) {
   return (
     <OpenContainer>
       <Logo href="/">Lotus Flower</Logo>
-      <Title>{title}</Title>
       <RightContainer>
         <HiMenuAlt4
           style={{
