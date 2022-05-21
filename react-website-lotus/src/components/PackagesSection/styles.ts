@@ -11,13 +11,15 @@ export const Container = styled.div`
   margin-bottom: 5%;
   margin-top: 10%;
 
-  p {
+  a {
     font-size: 1.3rem;
     text-align: center;
     font-weight: bold;
+    text-decoration: none;
+    color: black;
   }
 
-  p:hover {
+  a:hover {
     color: #817f83;
     font-size: 1.38rem;
   }

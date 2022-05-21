@@ -25,7 +25,7 @@ function PackagesSection() {
     if (!inView) {
       animation.start({ opacity: 0 });
     }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [inView]);
 
   return (
@@ -64,7 +64,7 @@ function PackagesSection() {
             <Text>Pacotes</Text>
           </TextsDiv>
           <TextDiv>
-            <p>SAIBA MAIS</p>
+            <a href="/pacotes">SAIBA MAIS</a>
           </TextDiv>
         </motion.div>
       </div>

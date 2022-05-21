@@ -49,7 +49,8 @@ function NavBar({ title }: NavBarProps) {
               <Link href="/maosepes">Mãos e Pés</Link>
               <Link href="/cabelo">Cabelo</Link>
               <Link href="/depilacao">Depilação</Link>
-              <Link href="/makeup">Sobre</Link>
+              <Link href="/pacotes">Pacotes</Link>
+              <Link href="/sobre">Sobre</Link>
             </nav>
           </Circle>
         </Container>

@@ -57,7 +57,7 @@ export const Container = styled.section<NavProps>`
 
 export const Link = styled.a`
   color: black;
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   text-decoration: none;
   position: relative;
   margin-top: 4%;
