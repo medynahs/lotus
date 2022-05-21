@@ -12,9 +12,9 @@ import {
   Circle,
 } from "./styles";
 import { useParams, useNavigate } from "react-router-dom";
-import { bodyInfo } from "../../data/BodyData";
-import { skincareInfo } from "../../data/SkincareData";
-import { makeupInfo } from "../../data/MakeupData";
+import { bodyInfo } from "../../data/bodyData";
+import { skincareInfo } from "../../data/skincareData";
+import { hairInfo } from "../../data/hairData";
 import { useState } from "react";
 import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 import { IoIosArrowRoundBack } from "react-icons/io";
@@ -24,7 +24,7 @@ import ScrollToTop from "../../components/ScrollToTop";
 function Details() {
   const { productId } = useParams();
 
-  const data = bodyInfo.concat(skincareInfo).concat(makeupInfo);
+  const data = bodyInfo.concat(skincareInfo).concat(hairInfo);
 
   const thisProduct = data.find((prod) => prod.title === productId);
 
@@ -70,7 +70,7 @@ function Details() {
 
           <Dropdown>
             <InfoTitle onClick={() => setIsOpen(!isOpen)}>
-              <text>INFORMAÇÕES SOBRE O TRATAMENTO</text>
+              <text>INDICAÇÕES E CONTRAINDICAÇÕES</text>
 
               {isOpen ? (
                 <AiOutlineMinus
@@ -93,24 +93,12 @@ function Details() {
               )}
             </InfoTitle>
 
-            {isOpen ? (
-              <Description>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Reprehenderit, ipsum, fuga, in, obcaecati magni ullam nobis
-                voluptas fugiat tenetur voluptatum quas tempora maxime rerum
-                neque deserunt suscipit provident cumque et mollitia ex
-                aspernatur porro minus sapiente voluptatibus eos at perferendis
-                repellat odit aliquid harum molestias ratione pariatur adipisci.
-                Aliquid, iure.
-              </Description>
-            ) : (
-              <p></p>
-            )}
+            {isOpen ? <Description>{thisProduct?.ind}</Description> : <p></p>}
 
             <Row />
 
             <InfoTitle onClick={() => setIsSecondOpen(!isSecondOpen)}>
-              <text>CUIDADOS</text>
+              <text>BENEFÍCIOS</text>
 
               {isSecondOpen ? (
                 <AiOutlineMinus
@@ -134,15 +122,7 @@ function Details() {
             </InfoTitle>
 
             {isSecondOpen ? (
-              <Description>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Reprehenderit, ipsum, fuga, in, obcaecati magni ullam nobis
-                voluptas fugiat tenetur voluptatum quas tempora maxime rerum
-                neque deserunt suscipit provident cumque et mollitia ex
-                aspernatur porro minus sapiente voluptatibus eos at perferendis
-                repellat odit aliquid harum molestias ratione pariatur adipisci.
-                Aliquid, iure.
-              </Description>
+              <Description>{thisProduct?.ben}</Description>
             ) : (
               <p></p>
             )}
@@ -150,7 +130,7 @@ function Details() {
             <Row />
 
             <InfoTitle onClick={() => setIsThirdOpen(!isThirdOpen)}>
-              <text>DOUTORA</text>
+              <text>DURAÇÃO</text>
 
               {isThirdOpen ? (
                 <AiOutlineMinus
@@ -174,15 +154,7 @@ function Details() {
             </InfoTitle>
 
             {isThirdOpen ? (
-              <Description>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Reprehenderit, ipsum, fuga, in, obcaecati magni ullam nobis
-                voluptas fugiat tenetur voluptatum quas tempora maxime rerum
-                neque deserunt suscipit provident cumque et mollitia ex
-                aspernatur porro minus sapiente voluptatibus eos at perferendis
-                repellat odit aliquid harum molestias ratione pariatur adipisci.
-                Aliquid, iure.
-              </Description>
+              <Description>{thisProduct?.duration}</Description>
             ) : (
               <p></p>
             )}

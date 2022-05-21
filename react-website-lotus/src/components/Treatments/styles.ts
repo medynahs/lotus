@@ -1,20 +1,22 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  height: 98vh;
+  height: 100%;
   width: 100%;
   flex-direction: column;
   display: flex;
   justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 5%;
 `;
 
 export const Paragraph = styled.text`
   font-size: 1.3rem;
   display: flex;
   justify-content: center;
-  margin-bottom: 4%;
+  margin-bottom: 2%;
   margin-top: 6%;
-  font-family: "Raleway", sans-serif;
+  font-weight: 600;
 
   @media (max-width: 920px) {
     font-size: 1rem;
@@ -25,7 +27,6 @@ export const Paragraph = styled.text`
   }
 `;
 
-
 export const LinkDiv = styled.div`
   display: flex;
   justify-content: center;
@@ -33,13 +34,17 @@ export const LinkDiv = styled.div`
 `;
 
 export const Link = styled.a`
-  font-size: 6.8rem;
+  font-size: 6rem;
   text-decoration: none;
   position: relative;
   color: black;
 
   &:hover {
     cursor: pointer;
+  }
+
+  img &:hover {
+    display: block;
   }
 
   ::after {

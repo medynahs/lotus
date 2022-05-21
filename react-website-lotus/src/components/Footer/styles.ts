@@ -16,7 +16,7 @@ export const FooterTitle = styled.h1`
   @media (max-width: 1360px) {
     font-size: 26rem;
   }
-  
+
   @media (max-width: 1240px) {
     font-size: 23rem;
   }
@@ -48,13 +48,11 @@ export const FooterTitle = styled.h1`
   @media (max-width: 370px) {
     font-size: 7.5rem;
   }
-
-
 `;
 
 export const Container = styled.div`
   width: 100%;
-  background: linear-gradient(white 5%, #8cd4c8);
+  background: linear-gradient(white 5%, #efdcdb);
 `;
 
 export const Container2 = styled.div`
@@ -73,7 +71,7 @@ export const Ulist1 = styled.div`
 `;
 
 export const List1 = styled.a`
-  list-style: none;
+  text-decoration: none;
   margin: 0 30px;
   color: red;
   font-size: 1.6rem;
@@ -104,13 +102,13 @@ export const Ulist2 = styled.ul`
   margin-top: 550px;
 `;
 
-export const List2 = styled.li`
-  list-style: none;
+export const List2 = styled.a`
   margin: 0 15px;
   color: red;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   color: black;
   font-weight: lighter;
+  text-decoration: none;
 
   @media (max-width: 720px) {
     @media (max-width: 720px) {

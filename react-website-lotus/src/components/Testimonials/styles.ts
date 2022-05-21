@@ -9,7 +9,7 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.p`
-  font-size: 7.88rem;
+  font-size: 6.5rem;
   margin-left: 9%;
 
   @media (max-width: 300px) {
@@ -37,7 +37,7 @@ export const Title = styled.p`
 `;
 
 export const Subtitle = styled.p`
-  font-size: 7.88rem;
+  font-size: 6.5rem;
   margin: -1% 0% 0% 18%;
 
 

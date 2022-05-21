@@ -59,7 +59,7 @@ export const InfoContainer = styled.div`
 
 export const Title = styled.text`
   color: black;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 `;
 
 export const Price = styled.text`

@@ -1,11 +1,11 @@
 import Screen from "../../components/Screen";
-import { skincareInfo } from "../../data/SkincareData";
+import { skincareInfo } from "../../data/skincareData";
 
 function Skincare() {
   return (
     <Screen
       data={skincareInfo}
-      pageTitle="Skincare"
+      pageTitle="Rosto"
       pageSubtitle="Tratamentos"
     />
   );

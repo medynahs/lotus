@@ -1,5 +1,5 @@
 import Screen from "../../components/Screen";
-import { bodyInfo } from "../../data/BodyData";
+import { bodyInfo } from "../../data/bodyData";
 
 function Body() {
   return (

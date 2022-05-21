@@ -1,6 +1,5 @@
 import {
   OpenContainer,
-  Title,
   RightContainer,
   Logo,
   Container,
@@ -25,7 +24,6 @@ function NavBar({ title }: NavBarProps) {
   return (
     <OpenContainer>
       <Logo href="/">Lotus Flower</Logo>
-      <Title>{title}</Title>
       <RightContainer>
         <HiMenuAlt4
           style={{
@@ -46,9 +44,13 @@ function NavBar({ title }: NavBarProps) {
           <Circle>
             <nav>
               <Link href="/">Home</Link>
-              <Link href="/skincare">Skincare</Link>
+              <Link href="/rosto">Skincare</Link>
               <Link href="/corpo">Corpo</Link>
-              <Link href="/makeup">Maquiagem</Link>
+              <Link href="/maosepes">Mãos e Pés</Link>
+              <Link href="/cabelo">Cabelo</Link>
+              <Link href="/depilacao">Depilação</Link>
+              <Link href="/pacotes">Pacotes</Link>
+              <Link href="/sobre">Sobre</Link>
             </nav>
           </Circle>
         </Container>
