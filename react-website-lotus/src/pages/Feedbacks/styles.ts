@@ -71,7 +71,7 @@ export const TestimonialsDiv = styled.div`
 `;
 
 export const TestimonialDiv = styled.div`
-  width: 24%;
+  width: 100%;
   height: 14rem;
   display: flex;
   flex-direction: column;
