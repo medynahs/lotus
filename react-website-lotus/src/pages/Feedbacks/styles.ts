@@ -12,12 +12,12 @@ export const Title = styled.p`
   font-size: 6.5rem;
   margin-left: 9%;
 
-  @media (max-width: 300px) {
-    font-size: 2rem;
-  }
-
   @media (max-width: 1280px) {
     font-size: 500%;
+  }
+
+  @media (max-width: 772px) {
+    font-size: 4.2rem;
   }
 
   @media (max-width: 630px) {
@@ -44,6 +44,11 @@ export const Subtitle = styled.p`
   @media (max-width: 1280px) {
     font-size: 500%;
   }
+
+  @media (max-width: 772px) {
+    font-size: 4.2rem;
+  }
+
 
   @media (max-width: 630px) {
     font-size: 240%;
