@@ -12,12 +12,12 @@ export const Title = styled.p`
   font-size: 6.5rem;
   margin-left: 9%;
 
-  @media (max-width: 300px) {
-    font-size: 2rem;
-  }
-
   @media (max-width: 1280px) {
     font-size: 500%;
+  }
+
+  @media (max-width: 772px) {
+    font-size: 4.2rem;
   }
 
   @media (max-width: 630px) {
@@ -45,6 +45,11 @@ export const Subtitle = styled.p`
     font-size: 500%;
   }
 
+  @media (max-width: 772px) {
+    font-size: 4.2rem;
+  }
+
+
   @media (max-width: 630px) {
     font-size: 240%;
   }
@@ -71,7 +76,7 @@ export const TestimonialsDiv = styled.div`
 `;
 
 export const TestimonialDiv = styled.div`
-  width: 24%;
+  width: 100%;
   height: 14rem;
   display: flex;
   flex-direction: column;
