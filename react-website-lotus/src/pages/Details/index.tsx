@@ -12,7 +12,7 @@ import {
   Circle,
 } from "./styles";
 import { useParams, useNavigate } from "react-router-dom";
-import { bodyInfo } from "../../data/bodyData";
+import { bodyInfo } from "../../data/BodyData";
 import { skincareInfo } from "../../data/skincareData";
 import { hairInfo } from "../../data/hairData";
 import { useState } from "react";
